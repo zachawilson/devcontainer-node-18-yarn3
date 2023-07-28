@@ -1,0 +1,4 @@
+{
+  "name": "devcontainer-node-18-yarn3",
+  "packageManager": "yarn@3.6.1"
+}

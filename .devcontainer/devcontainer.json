@@ -1,0 +1,14 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/devcontainers/images/tree/v0.2.20/src/typescript-node
+{
+  "name": "Default",
+  "build": {
+    "dockerfile": "Dockerfile"
+    "args": {
+        "devcontainercli": "true"
+    }
+  },
+
+  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node"
+}
