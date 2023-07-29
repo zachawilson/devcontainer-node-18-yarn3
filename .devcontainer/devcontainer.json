@@ -3,7 +3,7 @@
 {
   "name": "Default",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
     "args": {
         "devcontainercli": "true"
     }
